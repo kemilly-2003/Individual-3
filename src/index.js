@@ -5,7 +5,7 @@ const {uuid} = require('uuidv4')
 
 const app = express()
 app.use(express.json())
-const alunos = []
+const cinema = []
 
 app.get('/Cinema',(request, response) =>{
     return response.json(Cinema);
